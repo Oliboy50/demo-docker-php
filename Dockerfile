@@ -1,4 +1,6 @@
 
 FROM php:5.6-apache
 
-COPY . /var/www/html/
+COPY apache/default.conf /etc/apache2/sites-enabled/
+
+COPY src/ /var/www/html/
