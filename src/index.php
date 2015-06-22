@@ -9,12 +9,12 @@ $lv = "Link Value";
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <title>Hello <?= $lv ?></title>
+    <title>Hello <?php echo $lv ?></title>
 </head>
 <body>
 
 <p>
-    Hello <?= $lv ?>!
+    Hello <?php echo $lv ?>!
     I'm running in a container!
 </p>
 
